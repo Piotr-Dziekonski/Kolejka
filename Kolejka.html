@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<style>
+			#C{
+				width: calc(50% - 5px);
+				height: 100px;
+				float: left;
+				background-color: pink;
+				border: 2px solid black;
+				border-radius: 20px;
+				background: linear-gradient(90deg, #CCCCFF, #6666CC);
+			}
+			#D{
+				width: calc(50% - 5px);
+				height: 100px;
+				background-color: red;
+				float: left;
+				border: 2px solid black;
+				border-radius: 20px;
+				margin-left: 2px;
+				background: linear-gradient(90deg, #6666CC, #CCCCFF);
+			}
+			h1,h3{
+				text-align: center;
+			}
+			div[id|="oczek"]{
+				text-align:center;
+			}
+			body{
+				background-image: url("background.jpg");
+				background-attachment: fixed;
+			}
+			#zawartosc{
+				margin-top: 15%;
+			}
+			div#C:hover h3 a, div#D:hover h3 a{
+				color: #CCCCFF;
+				text-decoration: underline;
+				font-weight: bolder;
+			}
+		</style>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="zawartosc">
+			<h1>POBIERZ NUMER</h1>
+			<div id="C">
+				<h3><a href="">Numer o niższym priorytecie</a></h3>
+				<!--<div id="oczek-Niz">Ilość osób w kolejce:</div>-->
+			</div>
+			<div id="D">
+				<h3><a href="">Numer o wyższym priorytecie</a></h3>
+				<!--<div id="oczek-Wyz">Ilość  osób w kolejce:</div>-->
+			</div>
+		</div>
+	</body>
+</html>

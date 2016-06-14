@@ -1,0 +1,1 @@
+Dodaj pole obslugiwany do tabeli kolejka
